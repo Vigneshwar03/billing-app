@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api'
+ baseURL: 'https://billing-app-o5rw.onrender.com/api'
 });
 
 export const getCustomers = () => API.get('/customers');
